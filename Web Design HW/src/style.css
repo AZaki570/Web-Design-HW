@@ -1,0 +1,11 @@
+@media screen and (max-width: 425px) {
+  .navbar {
+    background-color: #2ba2d6;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #eeeeee;
+  }
+  .navbar-nav {
+    background-color: #2ba2d6;
+  }
+}

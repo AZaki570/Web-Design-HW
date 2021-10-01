@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Temperature</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body style="background-color: #eeeeee">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a
+        class="navbar-brand p-2 text-light"
+        href="../index.html"
+        style="background-color: #2ba2d6"
+        >Weather Data Project</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../comparasion/comparasion.html"
+              >Comparasion</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data/data.html">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./v1.html">Max Temperature</a>
+              <a class="dropdown-item" href="./v2.html">Humidity</a>
+              <a class="dropdown-item" href="./v3.html">Cloudness</a>
+              <a class="dropdown-item" href="./v4.html">Wind Speed</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid p-md-5">
+      <div class="row">
+        <div class="col-md-6 p-md-5" style="background-color: #ffffff">
+          <div class="row" style="border-bottom: 1px solid #2ba2d6">
+            <h3 style="color: #2ba2d6" class="p-1">Max Temperature</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="mt-md-2 mt-1">
+                <img
+                  src="../../Instructions/Resources/assets/images/Fig1.png"
+                  alt="Fig2"
+                  height="100%"
+                  width="100%"
+                />
+                <br />
+                As expected, the weather becomes significantly warmer as one
+                approaches the equator (0 Deg. Latitude). More interestingly,
+                however, is the fact that the southern hemisphere tends to be
+                warmer this time of year than the northern hemisphere. This may
+                be due to the tilt of the earth at the time of the year this
+                data was gathered.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="width: 20px"></div>
+        <div class="col-md-5 p-md-5" style="background-color: #ffffff">
+          <div class="row" style="border-bottom: 1px solid #2ba2d6">
+            <h3 style="color: #2ba2d6" class="p-1">Visualizations</h3>
+          </div>
+          <div class="row mt-md-2 mt-1">
+            <div class="col-md-6 col-3">
+              <a href="./v1.html">
+                <img
+                  src="../../Instructions/Resources/assets/images/Fig1.png"
+                  alt="fig1"
+                  style="border: 2px solid #2ba2d6"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-6 col-3">
+              <a href="./v2.html">
+                <img
+                  src="../../Instructions/Resources/assets/images/Fig2.png"
+                  alt="fig2"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-6 col-3">
+              <a href="./v3.html">
+                <img
+                  src="../../Instructions/Resources/assets/images/Fig4.png"
+                  alt="fig3"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-6 col-3">
+              <a href="./v4.html">
+                <img
+                  src="../../Instructions/Resources/assets/images/Fig4.png"
+                  alt="fig4"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+</html>
